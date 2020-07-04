@@ -8,13 +8,13 @@
 #[context.deploy-preview]
 #  command = "hugo --buildFuture"
 
-[context.production.environment]
-  HUGO_VERSION = "0.73"
+#[context.production.environment]
+#  HUGO_VERSION = "0.73"
 
 # you can lock a version of hugo for a deploy preview
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.73"
+#[context.deploy-preview.environment]
+#  HUGO_VERSION = "0.73"
 
 # you can lock a version of hugo for a branch-deploy (other than previews)
-[context.branch-deploy.environment]
-  HUGO_VERSION = "0.73"
+#[context.branch-deploy.environment]
+#  HUGO_VERSION = "0.73"
